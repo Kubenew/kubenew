@@ -3,7 +3,7 @@
 This makes it easier to work with multiple clusters from the same machine.
 To install the plugin, download the kubectl-ctx file and save it in any directory that is in your PATH:
 
-curl -O https://raw.githubusercontent.com/Kubenew/kubenew
+curl -O https://raw.githubusercontent.com/Kubenew/kubenew/cubectl-cx
 Then, make the kubectl-ctx file executable:
 
 chmod +x kubectl-ctx

@@ -1,16 +1,16 @@
 ### Hi there 👋
 
-<!--
-**Kubenew/kubenew** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This makes it easier to work with multiple clusters from the same machine.
+To install the plugin, download the kubectl-ctx file and save it in any directory that is in your PATH:
 
-Here are some ideas to get you started:
+curl -O https://raw.githubusercontent.com/Kubenew/kubenew
+Then, make the kubectl-ctx file executable:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+chmod +x kubectl-ctx
+Now, you can verify that the plugin is correctly installed by running the following command:
+
+kubectl plugin list
+This lists all the plugins that kubectl detected, and the kubectl-ctx plugin should now be listed there.
+
+To uninstall the plugin, simply delete the kubectl-ctx file.
+
